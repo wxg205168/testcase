@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+  <property category="idl" name="ProcessIDL" value="false"/>
+  <property category="java" name="compiler" value="hostjavac"/>
+  <property category="javadoc" name="custom.tags.1" value="todo;a;To Do:"/>
+  <property category="module" name="last.wizard.module.name" value="case"/>
+  <property category="personality" name="personality" value=""/>
+  <property category="runtime" name="DefaultConfiguration" value="-1"/>
+  <property category="runtime.0" name="ConfigurationName" value="SaveFunctionPointName"/>
+  <property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.ServerRunner"/>
+  <property category="runtime.0" name="appserver.parameters" value=""/>
+  <property category="runtime.0" name="appserver.servername" value=""/>
+  <property category="runtime.0" name="appserver.vmparameters" value=""/>
+  <property category="runtime.0" name="jsp.launchuri" value="/TestCaseWeb/SaveFunctionPointName.jsp"/>
+  <property category="runtime.0" name="jsprunner.launchuri" value="/TestCaseWeb/SaveFunctionPointName.jsp"/>
+  <property category="runtime.0" name="server.arguments" value=""/>
+  <property category="runtime.0" name="server.instance.name" value=""/>
+  <property category="runtime.0" name="server.vmparameters" value=""/>
+  <property category="serverservices" name="disabled.services" value="jdatastore;sqlj"/>
+  <property category="serverservices" name="single.server.name" value="Tomcat 4.1"/>
+  <property category="sys" name="AuthorLabel" value="@author"/>
+  <property category="sys" name="BackupPath" value="bak"/>
+  <property category="sys" name="CheckStable" value="1"/>
+  <property category="sys" name="Company" value=""/>
+  <property category="sys" name="CompanyLabel" value="Company:"/>
+  <property category="sys" name="Copyright" value="Copyright (c) 2005"/>
+  <property category="sys" name="CopyrightLabel" value="Copyright:"/>
+  <property category="sys" name="DefaultPath" value="src"/>
+  <property category="sys" name="Description" value=""/>
+  <property category="sys" name="DescriptionLabel" value="Description:"/>
+  <property category="sys" name="DocPath" value="doc"/>
+  <property category="sys" name="ExcludeClassEnabled" value="0"/>
+  <property category="sys" name="IncludeTestPath" value="1"/>
+  <property category="sys" name="InstanceVisibility" value="2"/>
+  <property category="sys" name="JDK" value="java version 1.4.2-b28"/>
+  <property category="sys" name="JvmVersion" value="1.4"/>
+  <property category="sys" name="LastTag" value="0"/>
+  <property category="sys" name="Libraries" value="Servlet;org;down;mail;activation"/>
+  <property category="sys" name="MakeStable" value="0"/>
+  <property category="sys" name="OutPath" value="classes"/>
+  <property category="sys" name="SourcePath" value="src;test"/>
+  <property category="sys" name="TestPath" value="test"/>
+  <property category="sys" name="Title" value=""/>
+  <property category="sys" name="TitleLabel" value="Title:"/>
+  <property category="sys" name="Version" value="1.0"/>
+  <property category="sys" name="VersionLabel" value="@version"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <property category="webModule" name="last.wizard.module.name" value="case"/>
+  <node name="case" type="WebModuleNode">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.enterprise.module.web.WebModuleArchiver"/>
+    <property category="archiving" name="defaultLibraryState" value="3"/>
+    <property category="archiving" name="libraryStates.1" value="0:Servlet"/>
+    <property category="archiving" name="libraryStates.2" value="0:Tomcat 4.1 Servlet"/>
+    <property category="archiving" name="targetPath" value="case.war"/>
+    <property category="module" name="buildModuleArchiveWithModuleNode" value="0"/>
+    <property category="module" name="buildModuleArchiveWithProject" value="0"/>
+    <property category="module" name="directory" value="case"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.1" value="CVS"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.2" value=".cvsignore"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.3" value="vssver.scc"/>
+    <property category="module" name="lastServer" value="Tomcat 4.1"/>
+    <property category="module" name="supported.features.1" value="Servlet 2.3"/>
+    <property category="module" name="supported.features.2" value="JSP 1.2"/>
+    <property category="web" name="context-root" value="case"/>
+    <property category="weblogic.appc" name="run" value="0"/>
+  </node>
+  <node name="QAT" type="WebModuleNode">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.enterprise.module.web.WebModuleArchiver"/>
+    <property category="archiving" name="defaultLibraryState" value="3"/>
+    <property category="archiving" name="libraryStates.1" value="0:Servlet"/>
+    <property category="archiving" name="libraryStates.2" value="0:Tomcat 4.1 Servlet"/>
+    <property category="archiving" name="targetPath" value="QAT.war"/>
+    <property category="module" name="buildModuleArchiveWithModuleNode" value="0"/>
+    <property category="module" name="buildModuleArchiveWithProject" value="0"/>
+    <property category="module" name="directory" value="QAT"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.1" value="CVS"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.2" value=".cvsignore"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.3" value="vssver.scc"/>
+    <property category="module" name="lastServer" value="Tomcat 4.1"/>
+    <property category="module" name="supported.features.1" value="Servlet 2.3"/>
+    <property category="module" name="supported.features.2" value="JSP 1.2"/>
+    <property category="web" name="context-root" value="QAT"/>
+    <property category="weblogic" name="deploy.node.options.8x" value=""/>
+    <property category="weblogic" name="deploy.node.password.8x" value="security"/>
+    <property category="weblogic" name="deploy.node.remote.exploded.appname.8x" value=""/>
+    <property category="weblogic" name="deploy.node.server.8x" value="myserver"/>
+    <property category="weblogic" name="deploy.node.unit.name.8x" value="testcase.war"/>
+    <property category="weblogic" name="deploy.node.user.name.8x" value="system"/>
+    <property category="weblogic" name="deploy.node.vm.parameters.8x" value=""/>
+    <property category="weblogic" name="deployer.node.admin.url.8x" value="http://wangxiaoguang:7001"/>
+    <property category="weblogic.appc" name="run" value="0"/>
+  </node>
+  <node name="tc" type="WebModuleNode">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.enterprise.module.web.WebModuleArchiver"/>
+    <property category="archiving" name="defaultLibraryState" value="3"/>
+    <property category="archiving" name="libraryStates.1" value="0:Servlet"/>
+    <property category="archiving" name="libraryStates.2" value="0:Tomcat 4.1 Servlet"/>
+    <property category="archiving" name="targetPath" value="tc.war"/>
+    <property category="module" name="buildModuleArchiveWithModuleNode" value="0"/>
+    <property category="module" name="buildModuleArchiveWithProject" value="0"/>
+    <property category="module" name="directory" value="tc"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.1" value="CVS"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.2" value=".cvsignore"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.3" value="vssver.scc"/>
+    <property category="module" name="lastServer" value="Tomcat 4.1"/>
+    <property category="module" name="supported.features.1" value="Servlet 2.3"/>
+    <property category="module" name="supported.features.2" value="JSP 1.2"/>
+    <property category="web" name="context-root" value="tc"/>
+    <property category="weblogic" name="deployer.node.admin.url.8x" value="http://wangxiaoguang:7001"/>
+    <property category="weblogic.appc" name="run" value="0"/>
+  </node>
+  <node name="TestCase1" type="WebModuleNode">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.enterprise.module.web.WebModuleArchiver"/>
+    <property category="archiving" name="defaultLibraryState" value="3"/>
+    <property category="archiving" name="libraryStates.1" value="0:Servlet"/>
+    <property category="archiving" name="libraryStates.2" value="0:Tomcat 4.1 Servlet"/>
+    <property category="archiving" name="targetPath" value="TestCase.war"/>
+    <property category="module" name="buildModuleArchiveWithModuleNode" value="0"/>
+    <property category="module" name="buildModuleArchiveWithProject" value="0"/>
+    <property category="module" name="directory" value="TestCase"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.1" value="CVS"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.2" value=".cvsignore"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.3" value="vssver.scc"/>
+    <property category="module" name="lastServer" value="Tomcat 4.1"/>
+    <property category="module" name="supported.features.1" value="Servlet 2.3"/>
+    <property category="module" name="supported.features.2" value="JSP 1.2"/>
+    <property category="web" name="context-root" value="TestCase"/>
+    <property category="weblogic" name="deployer.node.admin.url.8x" value="http://wangxiaoguang:7001"/>
+    <property category="weblogic.appc" name="run" value="0"/>
+  </node>
+  <node name="TestCaseWeb" type="WebModuleNode">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.enterprise.module.web.WebModuleArchiver"/>
+    <property category="archiving" name="defaultLibraryState" value="3"/>
+    <property category="archiving" name="libraryStates.1" value="0:Servlet"/>
+    <property category="archiving" name="libraryStates.2" value="0:Tomcat 4.1 Servlet"/>
+    <property category="archiving" name="targetPath" value="TestCaseWeb.war"/>
+    <property category="module" name="buildModuleArchiveWithModuleNode" value="0"/>
+    <property category="module" name="buildModuleArchiveWithProject" value="0"/>
+    <property category="module" name="directory" value="TestCaseWeb"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.1" value="CVS"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.2" value=".cvsignore"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.3" value="vssver.scc"/>
+    <property category="module" name="lastServer" value="Tomcat 4.1"/>
+    <property category="module" name="supported.features.1" value="Servlet 2.3"/>
+    <property category="module" name="supported.features.2" value="JSP 1.2"/>
+    <property category="web" name="context-root" value="TestCaseWeb"/>
+    <property category="weblogic" name="deployer.node.admin.url.8x" value="http://wangxiaoguang:7001"/>
+    <property category="weblogic.appc" name="run" value="0"/>
+  </node>
+  <file path="src/mydb/DatabaseBean.java"/>
+  <file path="src/excel/GenerateExcel.java"/>
+</project>
