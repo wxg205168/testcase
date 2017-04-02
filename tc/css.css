@@ -1,0 +1,60 @@
+div {
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+td {
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+}
+a:link {
+	font-size: 12px;
+	color: #006699;
+	text-decoration: none;
+}
+a:visited {
+	font-size: 12px;
+	color: #006699;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+a:active {
+	font-size: 12px;
+	text-decoration: none;
+}
+.search_input {
+	background-image: url(../../image/img_main/head_6.gif);
+	height: 12px;
+	width: 140px;
+	font-size: 12px;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	border: 0px none;
+	clear: none;
+	float: none;
+}
+.b_image {
+	cursor: hand;
+}
+.blue_text {
+	font-size: 12px;
+	color: 506485;
+	text-decoration: none;
+}
+.title {
+	font-size: 16px;
+	font-weight: 600;
+	color: #000000;
+	text-decoration: none;
+}
+.arttext {
+	text-indent: 18pt;
+	margin: 9pt;
+}
+

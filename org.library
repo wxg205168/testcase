@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <!--JBuilder Library Definition File-->
+  <fullname>org</fullname>
+  <class>
+    <path>[poi-3.0-alpha1-20050704.jar]</path>
+  </class>
+  <lastmodsaved>1125977084410</lastmodsaved>
+</library>
